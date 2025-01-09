@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.ota {
+    width: 200px;
+    height: 560px;
+    background-color: grey;
+    padding: 25px;
+}
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: black;
+    border: 2px solid white;
+  animation-delay: 10s;
+
+      
+        animation-name: a;
+        animation-delay: 20s;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+       
+        animation-fill-mode: both;
+    
+     top: 0;
+
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: black;
+    margin-top: 30px;
+    animation-name: m;
+    animation-delay: 20s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   
+    animation-fill-mode: both;
+
+ top: 0;
+}
+
+.box3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: black;
+    margin-top: 30px;
+    animation-name: n;
+    animation-delay: 15s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   
+    animation-fill-mode: both;
+
+ top: 0;
+}
+
+
+
+    
+@keyframes a {
+
+
+    0% {
+        
+        
+    }
+    50% {
+        
+        background-color: red;
+    }
+
+ 
+
+    100% {
+
+      
+    }
+
+}
+
+
+@keyframes m {
+
+
+    0% {
+        
+        
+    }
+    50% {
+        
+        background-color: yellow;
+    }
+
+ 
+
+    100% {
+
+      
+    }
+
+}
+
+@keyframes n {
+
+
+    0% {
+        
+        
+    }
+    50% {
+        
+        background-color: green;
+    }
+
+ 
+
+    100% {
+
+      
+    }
+
+}
